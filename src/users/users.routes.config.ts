@@ -8,7 +8,8 @@ import jwtMiddleware from '../auth/middleware/jwt.middleware';
 import permissionMiddleware from "../auth/middleware/permission.middleware";
 import { PermissionFlag } from "../auth/middleware/common.permissionflag.enum";
 
-export class UsersRoutes extends CommonRoutesConfig{
+export class UsersRoutes extends CommonRoutesConfig
+{
     constructor(app: express.Application)
     {
         super(app, 'UsersRoutes');
